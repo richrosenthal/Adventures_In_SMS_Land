@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+html {
+  font-family: 'MedievalSharp', cursive;
+  background: url('fantasyBackground.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  color: white;
+
+}
+
+.container {
+  /* position: relative; */
+  width: 1140px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   margin: 20px auto 0 auto;
+
+}
+
+h1, h2 {
+  font-size: 72px;
+  color: #cc0000;
+}
+
+p {
+  font-size: 22px;
+  color: #e3dac9;
+}
+
+/* .child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
