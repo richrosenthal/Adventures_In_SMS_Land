@@ -1,5 +1,21 @@
 
 
 <p>
-  <strong>A text based fantasy RPG that is played out via SMS. Put in your phone number below to start your quest.</strong>
+ <br />
+ <br />
+  <strong>Roll the dice and see what your mini quest entails. It's like a choose
+    your own adventure, but your adventure is decided by a single roll of dice. </strong>
 </p>
+
+<%= form_for(:user) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :phone_number %>
+  <%= f.text_field :phone_number %>
+
+  <%= f.label :rpg_class %>
+  <%= f.text_field :rpg_class %>
+
+  <%= f.submit "Roll the dice" %>
+<% end %>
